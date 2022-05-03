@@ -6,8 +6,21 @@
 
 [Final Presentation](https://github.com/arrow789/CS766_Project/files/8614190/Presentation.pdf)
 
+## Introduction
+Emotion recognition has attracted major attention in numerous fields because of its relevant applications in the contemporary world. Marketing, psychology, surveillance, and entertainment are some examples. 
 
-## Welcome to GitHub[Uploading MidTerm Report.pdf…]()
+It is possible to recognize emotion in several ways, such as facial expression, body language or speaking tones.
+
+Facial Expression Recognition (FER) is an important visual recognition technology to detect emotions given input to the intelligent system. There are many applications in multiple domains as below.
+
+•Human–Computer Interaction
+•Virtual Reality 
+•Augmented Reality 
+•Advanced Driver Assistance Systems 
+•Education
+•Entertainment
+
+## Welcome to GitHub
  Pages
 
 You can use the [editor on GitHub](https://github.com/arrow789/CS766_Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
