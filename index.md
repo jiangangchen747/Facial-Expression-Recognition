@@ -1,9 +1,14 @@
+**This is the project website for CS 766 Computer Vision in the University of Wisconsin-Madison**
 ## Documents
-[Proposal](https://github.com/arrow789/CS766_Project/Docs/CS766 Project Proposal.pdf)
+[Proposal](https://github.com/arrow789/CS766_Project/files/8614111/CS766.Project.Proposal.pdf)
+
+[MidTerm Report](https://github.com/arrow789/CS766_Project/files/8614186/MidTerm.Report.pdf)
+
+[Final Presentation](https://github.com/arrow789/CS766_Project/files/8614190/Presentation.pdf)
 
 
-
-## Welcome to GitHub Pages
+## Welcome to GitHub[Uploading MidTerm Report.pdf…]()
+ Pages
 
 You can use the [editor on GitHub](https://github.com/arrow789/CS766_Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
