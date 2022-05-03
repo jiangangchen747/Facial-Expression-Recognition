@@ -1,5 +1,5 @@
 ## Documents
-[Proposal](https://github.com/arrow789/CS766_Project/edit/gh-pages/index.md)
+[Proposal](https://github.com/arrow789/CS766_Project/Docs/CS766 Project Proposal.pdf)
 
 
 
