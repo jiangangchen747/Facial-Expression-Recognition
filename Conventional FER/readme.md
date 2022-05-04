@@ -6,6 +6,7 @@
     And put the files `fer2013.csv` and `shape_predictor_68_face_landmarks.dat` in the root folder of this package.
 3. Install the required packages in 'requirements.txt'.
 4. Convert the dataset to extract Face Landmarks and HOG Features
+
     python convert_fer2013_to_images_and_landmarks.py --landmarks=yes --hog=no --how_windows=no --jpg=no --onehot=no --expressions=1,3,4
 5. Train and evaluate
     python train.py --train=yes --evaluate=yes 
