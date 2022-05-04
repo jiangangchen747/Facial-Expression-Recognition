@@ -90,14 +90,34 @@ The next method is the deep neural network. So, why do we use the Neurol Network
 
 The reason I choose Ensemble methods in neural networks is that I think the result of the emotion classifier cannot output just one emotion, there might be some compound emotion. As for the benefits, a well-trained ensemble can reduce the remaining residual generalization error, which results in predictions being more accurate than any single model in the ensemble. But it requires high computational power, there are many solutions for this problem. To make this training-intensive technology accessible to everyone. Here are two solutions. One is rather than using the whole dataset for training, the ensemble method is trained on the most informative samples that maximize learning. The second one is that input space is decomposed into multiple regions, and each region is used to train one convolutional neural network of the ensemble.
 
+Here is another example. An Ensembles with Shared Representation consists of two building blocks. The base of the network (gray blocks in Figure) is an array of convolutional layers for low- and middle-level feature learning. The first part is responsible for the reduction of redundancy, training, and inference time. The low-level features learned by them are shared with the ensemble of convolutional branches. The second part is independent convolutional branches (purple blocks) that constitute the ensemble. It characterizes the explicit part and carries the diversity of the ensemble.
 
+| ![image](https://user-images.githubusercontent.com/46728665/166617351-1d0789e4-8132-4655-9a0a-bb4184d631c3.png)
+|:--:| 
+| *ESR Network* |
 
+The level to start the ensemble of branches plays an important role in the computational load and generalization power as well as for redundancy and diversity starting branching too early (level 1) may result in high redundancy of low-level facial features where all branches have to learn skin textures and so forth. Branching too late may drastically decrease diversity in the ensemble where features from the shared layers no longer correspond to spatial facial features
 
+Tractional Ensemble needs more training epochs than ESR to learn informative facial features. For example, ESR learned, after the first update that, the region around the mouth is relevant for recognizing happy facial expressions. And it took the Traditional Ensemble of 50 epochs to learn. For diversity analysis of ESR, the Facial Action Coding System (one model for dividing emotions) indicates that happy mainly consists of the raising of cheeks(AU-6) and mouths(AU-12), which can be shown on ESR Branch 2 (After Training). Fear consists of raising the inner brow(AU-1) and stretching of lip(AU-20) which can be shown on ESR Branch 2 (Epoch 50)
 
+| ![image](https://user-images.githubusercontent.com/46728665/166618266-6250fea2-1059-4134-9516-6edbd6623706.png)
+|:--:| 
+| *TE vs ESR* |
 
+**Here are the results, in the CK+, it achieves 89.4% accuracy, with fewer parameters to train compared with Traditional Emblems. And on the in-the-wild dataset, it achieves 59.3% on AffectNet and 87.15% in FER+.**
 
+| ![image](https://user-images.githubusercontent.com/46728665/166618663-39cc7e21-084a-4d4d-9eb4-b3e1141e095e.png)
+|:--:| 
+| *ESR Accuracy on CK+* |
 
+## Demo
+This is another model for dividing emotions. We use arousal and valence 2D coordinates to divide emotions based on the whether emotions are Active/Passive and Positive/Negative.
 
+<img src="https://user-images.githubusercontent.com/46728665/166618921-405a838a-6bed-4f35-99cf-9ab5cc56aec4.png" width=50% height=50%>
+Here is the demo of ESR on a video.
 
+https://user-images.githubusercontent.com/46728665/166618804-a565e8dd-f2b1-4dbe-847e-aff83cac0b56.mov
+
+# Defects & Future Work
 
 
