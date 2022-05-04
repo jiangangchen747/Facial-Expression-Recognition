@@ -86,7 +86,9 @@ Here is one example. This paper begins with face detection using the Viola-Jones
 **Since Viola-Jones was designed for frontal faces, not for faces looking sideways, upwards, or downwards. So I change the Viola-Jones with dlib, which is feature point tracking with 68 point facial landmarks. So on the in-the-wild dataset, I got 50% accuracy on 7 emotions, and 60% accuracy on 5 emotions.**
 
 ## Deep Neural Network
+The next method is the deep neural network. So, why do we use the Neurol Network in FER? Neural networks can automatically learn features from data, so hand-feature engineering was left out in the pipeline. Besides that, feature learning allows deep networks to learn a broader range of facial features. In visual perceptual tasks, certain features previously learned can be transferred among related tasks to save time.
 
+The reason I choose Ensemble methods in neural networks is that I think the result of the emotion classifier cannot output just one emotion, there might be some compound emotion. As for the benefits, a well-trained ensemble can reduce the remaining residual generalization error, which results in predictions being more accurate than any single model in the ensemble. But it requires high computational power, there are many solutions for this problem. To make this training-intensive technology accessible to everyone. Here are two solutions. One is rather than using the whole dataset for training, the ensemble method is trained on the most informative samples that maximize learning. The second one is that input space is decomposed into multiple regions, and each region is used to train one convolutional neural network of the ensemble.
 
 
 
