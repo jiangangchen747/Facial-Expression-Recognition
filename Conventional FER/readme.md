@@ -9,8 +9,11 @@
 
     python convert_fer2013_to_images_and_landmarks.py
 5. Train and evaluate
+
     python train.py --train=yes --evaluate=yes 
 8. Customize the training parameters:
+
     Feel free to change the values of the parameters in the `parameters.py` file according to your needs.
 9. Find the best hyperparameters (using hyperopt):
+
     python optimize_parameters.py --max_evals=15
