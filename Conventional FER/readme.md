@@ -1,13 +1,10 @@
 ## Steps
-1. Download Fer2013 dataset and the Face Landmarks model
+1. Download Fer2013 dataset and the Face Landmarks model (shape_predictor_68_face_landmarks.dat)
 
     - [Kaggle Fer2013 challenge](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
-    - [Dlib Shape Predictor model](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
-
+    - [Dlib Shape Predictor model](https://github.com/davisking/dlib-models)
 2. Unzip the downloaded files
-
     And put the files `fer2013.csv` and `shape_predictor_68_face_landmarks.dat` in the root folder of this package.
-
 3. 
 
 4. Convert the dataset to extract Face Landmarks and HOG Features
