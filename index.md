@@ -140,4 +140,3 @@ Future work includes the Multi-Model Affect Recognition, including Sound, Face D
 [7] Du, Shichuan, Yong Tao, and Aleix M. Martinez. "Compound facial expressions of emotion." Proceedings of the National Academy of Sciences 111.15 (2014): E1454-E1462.
 
 [8] Ekman, Paul. "Darwin, deception, and facial expression." Annals of the new York Academy of sciences 1000.1 (2003): 205-221.
-![image](https://user-images.githubusercontent.com/46728665/166620280-5a8d728d-7e61-4039-af58-eafd1b213fa8.png)
