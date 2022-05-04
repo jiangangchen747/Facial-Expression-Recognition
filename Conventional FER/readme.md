@@ -7,7 +7,7 @@
 3. Install the required packages in 'requirements.txt'.
 4. Convert the dataset to extract Face Landmarks and HOG Features
 
-    python convert_fer2013_to_images_and_landmarks.py --landmarks=yes --hog=no --how_windows=no --jpg=no --onehot=no --expressions=1,3,4
+    python convert_fer2013_to_images_and_landmarks.py
 5. Train and evaluate
     python train.py --train=yes --evaluate=yes 
 8. Customize the training parameters:
