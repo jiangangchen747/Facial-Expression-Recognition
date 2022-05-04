@@ -62,9 +62,30 @@ FER+ (Barsoum et al. 2016) derives from the reannotation of the Facial Expressio
 
 | ![image](https://user-images.githubusercontent.com/46728665/166611859-1020a308-1b4b-4750-b8e7-b6881930acbd.png)
 |:--:| 
-| *Comparesion between Three Datasets* |
+| *Comparison between Three Datasets* |
 
 ## Conventional Methods
+A notable characteristic of the conventional FER approach is that it is highly dependent on manual feature engineering. The researchers need to pre-process the image and select the appropriate feature extraction and classification method for the target dataset.
+
+The conventional FER procedure can be divided into three major steps: image pre-processing, feature extraction, and expression classification.
+
+| ![image](https://user-images.githubusercontent.com/46728665/166613834-ca82ae23-ea5d-483e-8798-41b0d424c248.png)
+|:--:| 
+| *Three Steps for Conventional FER* |
+
+Image pre-processing is to eliminate irrelevant information of input images, like the complex backgrounds, light intensity, and occlusion. Also, different sizes of datasets, and different camera hardware can cause data diversity. We need to do the pre-processing to enhance the detection ability of relevant information. Feature extraction is a process to extract useful data or information from the image, eg, values, vectors, and symbols. We’ve learned lots of feature extraction methods this semester. Another key to affecting the expression recognition rate is how to select the appropriate classifier that can successfully predict the face expressions. There are many choices here.
+
+Here is one example. This paper begins with face detection using the Viola-Jones face detector. This detector searches the Haar-like features. Once the face region is acquired, we can extract the brows, eyes, nose, and mouth from the face. Facial expressions result from muscle movements and these movements could be regarded as a kind of deformation. And Histogram of the Oriented Gradient is pretty sensitive to these object deformations. We use HOG to encode the components. The classifier is Support Vector Machines. Again, we can change this part to KNN or linear regression. We can also change the HOG to Gabor feature. It depends on which types of datasets you are using. 
+
+| ![image](https://user-images.githubusercontent.com/46728665/166614855-6ff2a686-33c5-4420-bd6b-fe58bb69cf15.png)
+|:--:| 
+| *Example of Conventional FER Methods* |
+
+**Here is the result. CK+ and JAFFE are in the lab datasets. It reaches out to 88.7% accuracy on CK+ and 94.3% on JAFFE.**
+
+**Since Viola-Jones was designed for frontal faces, not for faces looking sideways, upwards, or downwards. So I change the Viola-Jones with dlib, which is feature point tracking with 68 point facial landmarks. So on the in-the-wild dataset, I got 50% accuracy on 7 emotions, and 60% accuracy on 5 emotions.**
+
+## Deep Neural Network
 
 
 
@@ -78,54 +99,3 @@ FER+ (Barsoum et al. 2016) derives from the reannotation of the Facial Expressio
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Welcome to GitHub
- Pages
-
-You can use the [editor on GitHub](https://github.com/arrow789/CS766_Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arrow789/CS766_Project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
