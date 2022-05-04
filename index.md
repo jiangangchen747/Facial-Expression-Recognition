@@ -124,3 +124,20 @@ Below is the demo of ESR on a video.
 Both conventional and deep learning methods still have low accuracy on the large in-the-wild dataset. There is also pressure on high-volume data processing.
 Future work includes the Multi-Model Affect Recognition, including Sound, Face Depth Map, and IR images. Also, we need to consider the vision of privacy.
 
+# Reference
+[1] Chen, Junkai, et al. "Facial expression recognition based on facial components detection and hog features." International workshops on electrical and computer engineering subfields. 2014.
+
+[2] Chao, Wei-Lun, Jian-Jiun Ding, and Jun-Zuo Liu. "Facial expression recognition based on improved local binary pattern and class-regularized locality preserving projection." Signal Processing 117 (2015): 1-10.
+
+[3] A. Mollahosseini, D. Chan and M. H. Mahoor, "Going deeper in facial expression recognition using deep neural networks," 2016 IEEE Winter Conference on Applications of Computer Vision (WACV), 2016, pp. 1-10, doi: 10.1109/WACV.2016.7477450.
+
+[4] Sun, Ai, et al. "Facial expression recognition using optimized active regions." Human-centric Computing and Information Sciences 8.1 (2018): 1-24.
+
+[5] Liang, Dandan, et al. "Deep convolutional BiLSTM fusion network for facial expression recognition." The Visual Computer 36.3 (2020): 499-508.
+
+[6] Ekman, Paul. "An argument for basic emotions." Cognition & emotion 6.3-4 (1992): 169-200.
+
+[7] Du, Shichuan, Yong Tao, and Aleix M. Martinez. "Compound facial expressions of emotion." Proceedings of the National Academy of Sciences 111.15 (2014): E1454-E1462.
+
+[8] Ekman, Paul. "Darwin, deception, and facial expression." Annals of the new York Academy of sciences 1000.1 (2003): 205-221.
+![image](https://user-images.githubusercontent.com/46728665/166620280-5a8d728d-7e61-4039-af58-eafd1b213fa8.png)
