@@ -1,0 +1,7 @@
+pip install numpy
+pip install argparse
+pip install sklearn
+pip install scikit-image
+pip install pandas
+pip install hyperopt
+pip install dlib
