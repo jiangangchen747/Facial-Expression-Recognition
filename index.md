@@ -25,7 +25,7 @@ This project focuses on the state-of-art FER methods and reimplements FER algori
 FER in the human-computer interactive system is one of the challenging research topics in the field of artificial intelligence which has drawn plenty of attention in recent years. However, it is difficult to achieve natural and harmonious emotional interaction with traditional interaction methods such as keyboard, mouse, screen, and pattern, which is far from meeting the requirements for artificial intelligence. 
 Human expression is the most important carrier of inspirational perception and the most direct and obvious way of expressing emotions. And Facial expression is arguably the most natural, powerful, and immediate signal to communicate emotional states and intentions. Thus, FER has important theoretical significance for improving the emotional interaction ability of computers.
 
-## State-of-Art
+## State-of-Art Approaches
 There are many approaches in different areas to achieve FER. 
 
 For example, we can use RF signals to measure heart beats and get the emotions. We can use the Thermals measurement to get blood flow on face to get the emotions.
