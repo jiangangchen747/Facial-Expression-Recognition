@@ -114,10 +114,13 @@ Tractional Ensemble needs more training epochs than ESR to learn informative fac
 This is another model for dividing emotions. We use arousal and valence 2D coordinates to divide emotions based on the whether emotions are Active/Passive and Positive/Negative.
 
 <img src="https://user-images.githubusercontent.com/46728665/166618921-405a838a-6bed-4f35-99cf-9ab5cc56aec4.png" width=50% height=50%>
-Here is the demo of ESR on a video.
 
-https://user-images.githubusercontent.com/46728665/166618804-a565e8dd-f2b1-4dbe-847e-aff83cac0b56.mov
+Below is the demo of ESR on a video.
+
+<video src="https://user-images.githubusercontent.com/46728665/166618804-a565e8dd-f2b1-4dbe-847e-aff83cac0b56.mov" controls="controls" style="max-width: 730px;">
+</video>
 
 # Defects & Future Work
-
+Both conventional and deep learning methods still have low accuracy on the large in-the-wild dataset. There is also pressure on high-volume data processing.
+Future work includes the Multi-Model Affect Recognition, including Sound, Face Depth Map, and IR images. Also, we need to consider the vision of privacy.
 
