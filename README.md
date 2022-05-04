@@ -1,1 +1,1 @@
-# CS766_Project
+# CS766_Project: Facial Expression Recognition
