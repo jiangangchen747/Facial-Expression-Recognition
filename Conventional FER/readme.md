@@ -1,5 +1,5 @@
 ## Steps
-1. Download Fer2013 dataset and the Face Landmarks model (shape_predictor_68_face_landmarks.dat)
+1. Download Fer2013 dataset and the Face Landmarks model
     - [Kaggle Fer2013 challenge](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
     - [Dlib Shape Predictor model](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat)
 2. Unzip the downloaded files
