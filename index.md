@@ -44,6 +44,43 @@ In the computer vision areas, work [1] applies the HOG to encode these facial co
 |:--:| 
 | *Deep Convolutional Fusion Network* |
 
+## Types of Emotions
+Types of emotions, there are basic emotions[6], which include happiness, surprise, sadness, anger, disgust, and fear. Compound emotions are combinations of two basic emotions. 22 emotions are introduced in [7], including 7 basic emotions (6 basic emotions and 1 neutral), 12 compound emotions expressed commonly by humans, and 3 additional emotions (Awed, Appalled, and Hatred). Microexpressions [8] represent more spontaneous and subtle facial movements that occur involuntarily. They tend to reveal the true and potential expressions of a person for a limited time. The duration of the micro expression is very short and lasts for only 1/25 to 1/3 s. Studies on micro expressions are often applied in psychology and police investigations.
+In this project, we will focus on 7 emotions as below.
+
+| ![image](https://user-images.githubusercontent.com/46728665/166609520-0869e151-9cc0-4218-b0e0-da6fda2c9070.png)
+|:--:| 
+| *7 Emotions* |
+
+## FER Datasets
+FER datasets can be divided into two different parts, including the in-the-lab dataset and the in-the-wild dataset. 
+CK+ is one of the in-the-lab datasets, the facial expressions were recorded from frontal camera-view points, and their peaks were carefully annotated and validated in terms of 30 action units. AU is one of two models to catalog the emotions, we will introduce them later. ([CK+ Download](https://github.com/spenceryee/CS229))
+
+AffectNet is the largest dataset of facial expressions in the wild publicly available. It contains more than one million images retrieved from the Internet using emotion keywords from different languages, where half of them were manually annotated by human experts using 8 discrete emotions, arousal and valence levels. In addition to its heterogeneity, the heavily imbalanced label distribution (e.g., contempt constitutes only 1% of the annotated images) and the strong baselines pose a real challenge for the affective computing community. ([AffectNet Download](http://mohammadmahoor.com/affectnet/))
+
+FER+ (Barsoum et al. 2016) derives from the reannotation of the Facial Expression Recognition 2013 (FER- 2013) dataset (Goodfellow et al. 2015) due to the originally high degree of noise presented in the annotations. FER-2013 was created by querying facial images from Google’s image search engine using 184 emotion keywords. Each of the 35,887 facial images was then re-labeled by 10 annotators using crowd-sourcing, and the contempt category was added to the dataset as one of the possible 8 emotion labels. ([FER+ Download](https://github.com/Microsoft/FERPlus))
+
+| ![image](https://user-images.githubusercontent.com/46728665/166611859-1020a308-1b4b-4750-b8e7-b6881930acbd.png)
+|:--:| 
+| *Comparesion between Three Datasets* |
+
+## Conventional Methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
