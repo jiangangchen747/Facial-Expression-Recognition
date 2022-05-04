@@ -1,4 +1,4 @@
-**This is the project website for CS 766 Computer Vision in the University of Wisconsin-Madison**
+**This is the project website for CS 766 Computer Vision at the University of Wisconsin-Madison**
 ## Documents
 [Proposal](https://github.com/arrow789/CS766_Project/files/8614111/CS766.Project.Proposal.pdf)
 
